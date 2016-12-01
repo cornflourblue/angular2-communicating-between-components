@@ -1,0 +1,19 @@
+<!-- main app container -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="col-sm-8 col-sm-offset-2">
+            <div *ngIf="message" class="alert alert-success">{{message.text}}</div>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+
+<!-- credits -->
+<div class="text-center">
+    <p>
+        <a href="http://jasonwatmore.com/post/2016/12/01/angular-2-communicating-between-components-with-observable-subject" target="_top">Angular 2 - Communicating Between Components with Observable & Subject</a>
+    </p>
+    <p>
+        <a href="http://jasonwatmore.com" target="_top">JasonWatmore.com</a>
+    </p>
+</div>
